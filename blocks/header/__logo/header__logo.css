@@ -3,5 +3,19 @@
   height: 52px;
   background-image: url(../../../images/__logo.png);
   margin: 28px 0 0 48px;
+  background-size: contain;
+}
 
+@media screen and (max-width: 1023px) {
+  .header__logo {
+    margin: 28px 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+    margin: 16px 0 0 16px;
+  }
 }
