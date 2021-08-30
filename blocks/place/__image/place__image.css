@@ -1,5 +1,6 @@
 .place__image {
-  width: 460px;
-  height: 460px;
-  grid-area: image;
+  width: 100%;
+  object-fit: cover;
+  margin: 0;
+  box-sizing: border-box;
 }

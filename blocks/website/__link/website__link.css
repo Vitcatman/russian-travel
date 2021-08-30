@@ -5,10 +5,9 @@
   line-height: 22px;
   text-decoration-line: underline;
   margin: 12px 0 0;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
   transition: opacity 1s ease;
-
 }
 
 .website__link:hover {

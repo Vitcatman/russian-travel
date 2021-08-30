@@ -3,9 +3,7 @@
   margin: 0 48px 92px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-
   grid-gap: 16px;
-
 }
 
 @media screen and (max-width: 1279px) {
@@ -27,7 +25,3 @@
     margin: 0 16px 64px;
   }
 }
-
-
-
-

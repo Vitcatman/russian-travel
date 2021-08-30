@@ -1,16 +1,12 @@
 .cover__background {
   width: 100%;
-  min-height: 100%;
-  background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url("../../../images/dmitrii-vaccinium-22833-unsplash.jpg");
-  object-fit: cover;
-  display: inline-block;
+  height: 100%;
+  background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)),
+    url("../../../images/dmitrii-vaccinium-22833-unsplash.jpg");
+  background-size: cover;
   position: absolute;
 }
 
 .cover__background:hover {
   opacity: 0.8;
 }
-
-
-
-
