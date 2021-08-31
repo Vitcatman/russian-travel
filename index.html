@@ -10,10 +10,12 @@
     <div class="page">
       <header class="header">
         <div class="header__logo" role="img"></div>
-        <nav>
-          <a class="header__lang-link" href="#">Ru</a>
-          <a class="header__lang-link header__lang-link_lang_en" href="#">En</a>
-        </nav>
+        <ul class="header__lang-links">
+          <li>
+            <a class="header__lang-link header__lang-link_focused" href="#">Ru</a>
+          </li>
+          <li><a class="header__lang-link" href="#">En</a></li>
+        </ul>
       </header>
       <main class="content">
         <section class="lead">
@@ -44,78 +46,96 @@
           </p>
           <ul class="intro__list">
             <li>
-              <p class="intro__list-item">Часовых поясов 11</p>
-            </li>
-            <li>
               <p class="intro__list-item">
-                Объектов природного наследия ЮНЕСКО 12
+                Часовых поясов <span class="intro__item-number">11</span>
               </p>
             </li>
             <li>
               <p class="intro__list-item">
-                Объектов культурного наследия ЮНЕСКО 16
+                Объектов природного наследия ЮНЕСКО
+                <span class="intro__item-number">12</span>
               </p>
             </li>
             <li>
-              <p class="intro__list-item">Природных заповедников 105</p>
+              <p class="intro__list-item">
+                Объектов культурного наследия ЮНЕСКО
+                <span class="intro__item-number">16</span>
+              </p>
             </li>
             <li>
-              <p class="intro__list-item">Аэропортов 241</p>
+              <p class="intro__list-item">
+                Природных заповедников
+                <span class="intro__item-number">105</span>
+              </p>
+            </li>
+            <li>
+              <p class="intro__list-item">
+                Аэропортов <span class="intro__item-number">241</span>
+              </p>
             </li>
           </ul>
         </article>
-        <div class="photo-grid">
-          <img src="./images/train.jpg" class="photo-grid__item" alt="поезд">
+        <section class="photo-grid">
+          <img src="./images/train.jpg" class="photo-grid__item" alt="поезд" />
           <img
             src="./images/atharva-tulsi-472908-unsplash.jpg"
             class="photo-grid__item"
-            alt="горы">
-          <img src="./images/tuman.jpg" class="photo-grid__item" alt="туман">
-          <img src="./images/sochi.jpg" class="photo-grid__item" alt="Сочи">
+            alt="горы"
+          >
+          <img src="./images/tuman.jpg" class="photo-grid__item" alt="туман" />
+          <img src="./images/sochi.jpg" class="photo-grid__item" alt="Сочи" />
           <img
             src="./images/arisa-chattasa-559627-unsplash.jpg"
             class="photo-grid__item"
-            alt="авто на льду">
+            alt="авто на льду"
+          >
           <img
             src="./images/baikal.jpg"
             class="photo-grid__item"
-            alt="Байкал">
+            alt="Байкал"
+          >
           <img
             src="./images/elbrus.jpg"
             class="photo-grid__item"
-            alt="Эльбрус">
+            alt="Эльбрус"
+          >
           <img
             src="./images/stanislav-kondratiev-459423-unsplash.jpg"
             class="photo-grid__item"
-            alt="знак">
+            alt="знак"
+          >
           <img
             src="./images/kamchatka.jpg"
             class="photo-grid__item"
-            alt="Камчатка">
+            alt="Камчатка"
+          >
           <img
             src="./images/kamchatka2.jpg"
             class="photo-grid__item"
-            alt="камчатский пейзаж">
+            alt="камчатский пейзаж"
+          >
           <img
             src="./images/baikal2.jpg"
             class="photo-grid__item"
-            alt="берег Байкала">
+            alt="берег Байкала"
+          >
           <img
             src="./images/ergaki.jpg"
             class="photo-grid__item"
-            alt="Ергаки">
-        </div>
+            alt="Ергаки"
+          >
+        </section>
         <section class="places">
           <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <img
               class="place__image"
               src="./images/nikita-tikhomirov-1153188-unsplash.jpg"
-              alt="куршская коса">
+              alt="куршская коса"
+            >
             <div class="website">
               <p class="website__url-heading">URL</p>
-              <a class="website__link" href="http://park-kosa.ru" target="blanc"
-                >park-kosa.ru</a>
+              <a class="website__link" href="http://park-kosa.ru" target="blanc">park-kosa.ru</a>
             </div>
             <div class="place__paragraphs">
               <p class="place__paragraph">
@@ -139,14 +159,16 @@
             <img
               class="place__image"
               src="./images/m-r-760504-unsplash.jpg"
-              alt="Кольский">
+              alt="Кольский"
+            >
             <div class="website">
               <p class="website__url-heading">URL</p>
               <a
                 class="website__link"
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                 target="blanc"
-                >National Geographic</a>
+                >National Geographic</a
+              >
             </div>
             <div class="place__paragraphs">
               <p class="place__paragraph">
@@ -170,14 +192,16 @@
             <img
               class="place__image"
               src="./images/nail-gilfanov-527808-unsplash.jpg"
-              alt="Алтай">
+              alt="Алтай"
+            >
             <div class="website">
               <p class="website__url-heading">URL</p>
               <a
                 class="website__link"
                 href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
                 target="blanc"
-                >Facebook</a>
+                >Facebook</a
+              >
             </div>
             <div class="place__paragraphs">
               <p class="place__paragraph">
@@ -201,14 +225,16 @@
             <img
               class="place__image"
               src="./images/sergey-pesterev-1156037-unsplash.jpg"
-              alt="зимний Байкал">
+              alt="зимний Байкал"
+            >
             <div class="website">
               <p class="website__url-heading">URL</p>
               <a
                 class="website__link"
                 href="https://vk.com/baikalmile"
                 target="blanc"
-                >https://vk.com/baikalmile</a>
+                >https://vk.com/baikalmile</a
+              >
             </div>
             <div class="place__paragraphs">
               <p class="place__paragraph">
@@ -231,11 +257,13 @@
             <img
               class="place__image"
               src="./images/vladimir-fedotov-652306-unsplash.jpg"
-              alt="Карелия">
+              alt="Карелия"
+            >
             <div class="website">
               <p class="website__url-heading">URL</p>
               <a class="website__link" href="http://vodlozero.ru" target="blanc"
-                >http://vodlozero.ru/</a>
+                >http://vodlozero.ru/</a
+              >
             </div>
             <div class="place__paragraphs">
               <p class="place__paragraph">
@@ -257,12 +285,13 @@
             class="cover__background"
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
             target="blanc"
-          ></a>
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <p class="cover__subtitle">
-            По мотивам учебной темы о Транссибе — путешествие от столицы до
-            Байкала на электричках.
-          </p>
+          >
+            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </p>
+          </a>
         </section>
       </main>
       <footer class="footer">
